@@ -1,0 +1,88 @@
+@media screen and (max-width:500px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        /* background: red; */
+    }
+    .content-1{
+        /* background: purple; */
+        text-transform: capitalize;
+        line-height: 3.5;
+        width: 100%;
+    }
+    
+    .content-2{
+        padding: 1rem 0;
+        text-transform: capitalize;
+    }
+    
+    .container{
+        width: 95vw;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        /* background: brown; */
+        height: 100%;
+        margin: 0 auto;
+        gap: 15px;
+        justify-content: center;
+        /* position: relative; */
+    }
+    .cell{
+    height: 20%;
+    display: table;
+    position: relative;
+    }
+    
+    
+    .cell-1{ 
+        /* background: green; */
+        align-self: flex-start;
+        
+    } 
+    
+    .cell-2{ 
+        /* background: yellow; */
+        /* margin-bottom: 3rem; */
+    } 
+    
+    .cell-3{ 
+        /* background: indigo; */
+    } 
+    
+    .cell-4{ 
+        /* background: violet; */
+    } 
+    .cell-5{ 
+        /* background: midnightblue; */
+    } 
+    
+    .cell-6{ 
+        /* background: black; */
+    } 
+    
+    /* img span wrting-mode and h4 */
+    img{
+        width: 95%;
+        height: 50%;
+    }
+    
+    span{
+        writing-mode: vertical-rl;
+        position: absolute;
+        /* right: 48%; */
+        font-weight: bold;
+    }
+    .span-2,.span-4,.span-6{
+        right: -8px;
+        top: 0px;
+    }
+    
+    .span-1, .span-3,.span-5{
+        right: -5px;
+    }
+
+}
